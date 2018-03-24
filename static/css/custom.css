@@ -1,5 +1,21 @@
 /* your styles go here */
 
+@media screen and (max-width: 991px){
+    .columns{
+        height: 600px;
+        overflow-y:scroll;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .columns{
+        -moz-column-count:2; /* Firefox */
+        -webkit-column-count:2; /* Safari and Chrome */
+        column-count:2;
+        width: 500px;
+    }
+}
+
 .box-image-text .image {
   min-height: 200px;
   max-height: 200px;
@@ -7,4 +23,8 @@
 
 .box-simple {
   min-height: 230px;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
 }
