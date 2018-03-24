@@ -7,6 +7,9 @@
 - id: portedBy
   translation: "Adaptada a Hugo per"
 
+- id: enhancedBy
+  translation: "Millorat per"
+
 - id: contactGoTo
   translation: "Anar a la pàgina de contacte"
 

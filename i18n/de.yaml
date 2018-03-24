@@ -7,6 +7,9 @@
 - id: portedBy
   translation: "Portiert nach Hugo durch"
 
+- id: enhancedBy
+  translation: "Erweitert durch"
+
 - id: contactGoTo
   translation: "Zur Kontakt Seite"
 
